@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="js/jquery.min.js"></script>
+    
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
@@ -147,47 +147,85 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+      <center>
+        <h1>Ongoing Events</h1>
+        <p>Ongoing events with pictures.</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        </center>
+      </div>
+    </div>
+    <div class="jumbotron">
+      <div class="container">
+      <center>
+        <h1>Upcoming Events</h1>
+        <p>Upcoming events with pictures.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        </center>
       </div>
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
+      <center>
+      <h1>All Events</h1>
+      </center>
       <div class="row">
+      <!-- script loop from here -->
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <h2>Name 1</h2>
+          <p>Fetch names from database using php.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
+      <!-- script loop ends here -->
+
+      <!-- script loop from here -->
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <h2>Name 1</h2>
+          <p>Fetch names from database using php.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
+      <!-- script loop ends here -->
+      <!-- script loop from here -->
+        <div class="col-md-4">
+          <h2>Name 1</h2>
+          <p>Fetch names from database using php.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      <!-- script loop ends here -->        
+      </div>
       </div>
 
-      <hr>
-
-      <footer>
-        <p>&copy; 2016 Company, Inc.</p>
-      </footer>
-    </div> <!-- /container -->
+    <footer class="footer">
+    <div class="container">
+    <div class="col-md-8">
+    <p class="copyright">Copyright : <span>All rights reserved</span> | Design & Developed by <b><a href="index.php" title="Team EXE official">Team .EXE</a></b></p>
+    </div>
+    <div class="col-md-4">
+                        <!-- Social Media -->
+                            
+                                <a href="https://www.facebook.com/teamexe/" target="_blank" title="Like us on Facebook" class="Facebook">
+                                    <img class="ft" src="images/fb.svg" />
+                                </a>
+                           
+                                <a href="https://www.instagram.com/teamexenith/" target="_blank" title="Follow on Instagram" class="Instagram">
+                                    <img class="ft" src="images/insta.svg" />
+                                </a>
+                          
+                                <a href="https://www.youtube.com/channel/UCTIpvLaM1G-uUsthgCDauKw" target="_blank" title="Subscribe us on Youtube" class="Youtube">
+                                    <img class="ft" src="images/youtube.svg" />
+                                </a>
+                          
+                            
+                        
+                    </div>
+                    </div>
+    </footer> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
