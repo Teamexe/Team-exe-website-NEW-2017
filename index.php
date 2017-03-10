@@ -35,9 +35,8 @@
     <script src="js/slider.js"></script>
     <script src="js/jquery.fancybox.js"></script>
     <script src="js/main.js"></script>
-
-    
-
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="307712715810-5gqv439ef8l9hmmod3ggpbdplcc7t7gq.apps.googleusercontent.com">
   </head>
 
   <body>
@@ -68,15 +67,8 @@
                 </div>
                 <!-- main menu -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
                     <!-- <div class="main-menu">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
