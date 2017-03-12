@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-signin-client_id" content="307712715810-5gqv439ef8l9hmmod3ggpbdplcc7t7gq.apps.googleusercontent.com">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Team .EXE is the technical team of Computer Science & Engineering Department for technical fest NIMBUS at NIT Hamirpur.">
     <meta name="author" content="Team .EXE">
@@ -13,6 +14,8 @@
 
     <?php 
           include_once('stylesheets.php');
+          include_once('gplus-php/main.php');
+          
     ?>
   </head>
 
@@ -37,16 +40,22 @@
                     <div class="navbar-brand">
                         <a href="index.php" >
                             <img src="images/logo.png" alt="Team .EXE logo" title="Team .EXE logo"> 
-                           
                         </a>
                     </div>
                     <!-- /logo -->
                 </div>
                 <!-- main menu -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                <div class="g-signin2" data-onsuccess="onSignIn"></div>
-
-                    <!-- <div class="main-menu">
+                <div class="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                
+   <img id="customBtn" src="images/signin_button.png" onClick="signInClick()" alt="Sign in with Google+" />
+  
+                            </li>
+                        </ul>
+                  </div>
+                <!-- <div class="main-menu">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
                                 <a href="git.html" >Git</a>
@@ -111,7 +120,8 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
-
+<div><center>
+</center></div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
@@ -193,8 +203,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    
   </body>
 </html>

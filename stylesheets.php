@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/modernizr-2.6.2.min.js"></script>
-    
+    <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
@@ -23,4 +23,4 @@
     <script src="js/jquery.fancybox.js"></script>
     <script src="js/main.js"></script>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" content="307712715810-5gqv439ef8l9hmmod3ggpbdplcc7t7gq.apps.googleusercontent.com">
+    
