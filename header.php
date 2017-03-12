@@ -44,3 +44,6 @@ include_once('user_session.php');
                 </nav>
             </div>
         </header>
+<!-- Experimental, can be removed -->
+<section class="global-page-header">
+</section>
