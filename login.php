@@ -76,7 +76,7 @@ if (isset($authUrl))
 	//show login url
 	echo '<div align="center">';
 	echo '<img class="btlog1" src="images/logo.png"><br>';
-	echo "<h3><code>Team .EXE wants you to Sign In to yor Google account</code></h3><br>";
+	echo "<h3><code>Team .EXE wants you to Sign In to your Google account</code></h3><br>";
 	echo '<a class="login" href="' . $authUrl . '"><img class="btlog1" src="images/signin_button.png" /></a>';
 	
 } 
