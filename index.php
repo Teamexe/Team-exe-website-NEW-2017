@@ -14,6 +14,7 @@
 
     <?php 
           include_once('stylesheets.php');          
+          include_once('dbconnect.php');
     ?>
   </head>
 
