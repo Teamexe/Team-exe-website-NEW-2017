@@ -15,6 +15,7 @@
     <?php 
           include_once('stylesheets.php');
           include_once('gplus-php/main.php');
+          
     ?>
   </head>
 
