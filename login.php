@@ -12,7 +12,7 @@ include_once('dbconnect.php');
 $client_id = '307712715810-5gqv439ef8l9hmmod3ggpbdplcc7t7gq.apps.googleusercontent.com'; 
 $client_secret = 'yvXrJI4PIvIEtJr4G-DBd44N';
 //$redirect_uri = 'http://exe.nith.ac.in/login.php';
-$redirect_uri='http://localhost/github/Team-exe-website-NEW-2017/login.php';
+$redirect_uri='http://localhost/exe/login.php';
 
 
 //incase of logout request, just unset the session var
