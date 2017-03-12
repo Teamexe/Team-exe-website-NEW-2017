@@ -76,8 +76,7 @@ if (isset($authUrl)){
 	echo '<img class="btlog1" src="images/logo.png"><br>';
 	echo "<h3><code>Team .EXE wants you to Sign In to yor Google account</code></h3><br>";
 	echo '<a class="login" href="' . $authUrl . '"><img class="btlog1" src="images/signin_button.png" /></a>';
-	echo '</div>';
-	echo '</div>';
+	
 } 
 else {
 	$user = $service->userinfo->get(); //get user info 
@@ -110,11 +109,15 @@ else {
     }
     //show user picture
 	echo '<img src="'.$user->picture.'" style=" width:20%; margin-top: 33px;" />';
-	echo "</center>";
+	
 	//print user details
 	/*echo '<pre>';
 	print_r($user);
 	echo '</pre>';*/
 }
+include_once('user_navigation.php');
 echo '</div>';
+echo '</div>';
+echo "</center>";
+include_once('footer.php');
 ?>

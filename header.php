@@ -34,6 +34,7 @@ include_once('user_session.php');
    else
    {
        echo '<a><button class="btn sr-btn" type="button">'.$session_usr;'</button></a>'; 
+       
        echo '<a href="logout.php"><button class="btn sr-btn" type="button">Logout</button></a>';
    }
 ?>
