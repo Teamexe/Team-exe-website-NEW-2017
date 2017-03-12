@@ -24,6 +24,7 @@
       include_once('navigation.php');
 ?>       
     
+
  <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">

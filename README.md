@@ -12,3 +12,6 @@
 - [ ] Adding functionality to admin/ .
 - [ ] Add sharing buttons to every pages & posts.
 - [x] Add navigation bar
+
+## Required
+- [ ] Latest Photos of team members, combined & year wise

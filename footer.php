@@ -1,7 +1,9 @@
+<section class="global-page-header">
+        </section>
 <footer class="footer">
     <div class="container">
     <div class="col-md-8">
-    <p class="copyright">Copyright : <span>All rights reserved</span> | Design & Developed by <b><a href="index.php" title="Team EXE official">Team .EXE</a></b></p>
+    <p class="copyright">&copy; : <span>All rights reserved</span> | Designed, Developed & Hosted by <b><a href="index.php" title="Team EXE official">Team .EXE</a></b></p>
     </div>
     <div class="col-md-4">
                         <!-- Social Media -->
