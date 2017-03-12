@@ -4,6 +4,7 @@ session_start(); //session start
 require_once ('libraries/Google/autoload.php');
 include_once('stylesheets.php'); 
 include_once('header.php');
+include_once('dbconnect.php');
 
 //Insert your cient ID and secret 
 //You can get it from : https://console.developers.google.com/
@@ -11,11 +12,6 @@ $client_id = '307712715810-5gqv439ef8l9hmmod3ggpbdplcc7t7gq.apps.googleuserconte
 $client_secret = 'yvXrJI4PIvIEtJr4G-DBd44N';
 $redirect_uri = 'http://exe.nith.ac.in/login.php';
 
-//database
-$db_username = "xxxxxxxxx"; //Database Username
-$db_password = "xxxxxxxxx"; //Database Password
-$host_name = "localhost"; //Mysql Hostname
-$db_name = 'xxxxxxxxx'; //Database Name
 
 //incase of logout request, just unset the session var
 if (isset($_GET['logout'])) {
