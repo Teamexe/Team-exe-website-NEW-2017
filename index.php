@@ -14,6 +14,7 @@
 
     <?php 
           include_once('stylesheets.php');
+          include_once('gplus-php/main.php');
     ?>
   </head>
 
@@ -47,7 +48,9 @@
                 <div class="main-menu">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <div class="g-signin2" data-onsuccess="onSignIn"><button>hello</button></div>
+                                
+   <img id="customBtn" src="images/signin_button.png" onClick="signInClick()" alt="Sign in with Google+" />
+  
                             </li>
                         </ul>
                   </div>
