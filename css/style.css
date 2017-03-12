@@ -20,8 +20,8 @@
 	color:  #3498db;
 }
 .copyright a:hover{
-	 color: #5dade2;
 	 font-size: 13px;
+   text-transform: uppercase;
 	 text-decoration: none;
 }
 .ft{

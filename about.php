@@ -43,39 +43,13 @@ We are passionate about technology & our curiousity drives us towards the develo
         <li>Professional as well as Personal growth.</li>
         <li>Achieve excellence in Team work.</li>
         </ul>
+        <h1>Our <a>Ethics</a></h1>
+        <ul>
+          <li>We are Passionate</li>
+          <li>We are Creative</li>
+          <li>We are Developers</li>
+        </ul>
       </center>
-      </div>
-        <section class="global-page-header">
-        </section>
-
-    <div class="container">
-      <center>
-      <h1>All Events</h1>
-      </center>
-      <div class="row">
-      <!-- script loop from here -->
-        <div class="col-md-4">
-          <h2>Name 1</h2>
-          <p>Fetch names from database using php.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      <!-- script loop ends here -->
-
-      <!-- script loop from here -->
-        <div class="col-md-4">
-          <h2>Name 1</h2>
-          <p>Fetch names from database using php.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      <!-- script loop ends here -->
-      <!-- script loop from here -->
-        <div class="col-md-4">
-          <h2>Name 1</h2>
-          <p>Fetch names from database using php.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      <!-- script loop ends here -->        
-      </div>
       </div>
 
 <?php
