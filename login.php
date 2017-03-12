@@ -97,11 +97,11 @@ else {
 		
 	if($user_count) //if user already exist change greeting text to "Welcome Back"
     {
-        echo '<code><h3> Welcome back <b>'.$user->name.'</b> Nice to see you again </h3></code>';
+        echo '<code><h3> Welcome back <b><a href="profile.php">'.$user->name.'</a></b> Nice to see you again </h3></code>';
     }
 	else //else greeting text "Thanks for registering"
 	{ 
-        echo '<code><h3>Hi <b>'.$user->name.'</b>, Thanks for Registering!</code></h3>';
+        echo '<code><h3>Hi <b><a href="profile.php">'.$user->name.'</a></b>, Thanks for Registering!</code></h3>';
 	$statement = $mysqli->prepare("INSERT INTO users (google_id, name, email, link, picture) VALUES (?,?,?,?,?)");
 		$statement->bind_param('issss', $user->id,  $user->name, $user->email, $user->link, $user->picture);
 		$statement->execute();

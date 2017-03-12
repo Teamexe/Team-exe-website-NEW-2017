@@ -33,8 +33,7 @@ include_once('user_session.php');
    //if user session is set then redirecting user to profile
    else
    {
-       echo '<a><button class="btn sr-btn" type="button">'.$session_usr;'</button></a>'; 
-       
+       echo '<a href="profile.php"><button class="btn sr-btn" type="button">',$session_usr;'</button></a>'; 
        echo '<a href="logout.php"><button class="btn sr-btn" type="button">Logout</button></a>';
    }
 ?>
