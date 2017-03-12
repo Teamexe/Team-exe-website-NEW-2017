@@ -14,11 +14,17 @@
       $session_usr=$row['name'];
       //echo $session; to check the username
    }
-
-
-
+/*
    if(!isset($_SESSION['login_user'])|| $login_session=='')
    {
       //header("location:index.php");
+   }
+*/
+
+
+   if(!isset($_SESSION['login_user']))
+   {
+      //update it later
+      //header("location:login.php");
    }
 ?>

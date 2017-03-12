@@ -4,6 +4,7 @@ session_start(); //session start
 require_once ('libraries/Google/autoload.php');
 include_once('stylesheets.php'); 
 include_once('header.php');
+include_once('navigation.php');
 include_once('dbconnect.php');
 
 //Insert your cient ID and secret 
@@ -70,7 +71,8 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
 echo "<br><br><br>";
 echo '<div class="jumbotron">';
 echo '<div class="container">';
-if (isset($authUrl)){ 
+if (isset($authUrl))
+{ 
 	//show login url
 	echo '<div align="center">';
 	echo '<img class="btlog1" src="images/logo.png"><br>';
@@ -78,17 +80,12 @@ if (isset($authUrl)){
 	echo '<a class="login" href="' . $authUrl . '"><img class="btlog1" src="images/signin_button.png" /></a>';
 	
 } 
-else {
+else 
+{
 	$user = $service->userinfo->get(); //get user info 
 	$_SESSION['login_user']=$user['id'];
 	include_once('user_session.php');
 
-	// connect to database
-	$mysqli = new mysqli($host_name, $db_username, $db_password, $db_name);
-    if ($mysqli->connect_error) {
-        die('Error : ('. $mysqli->connect_errno .') '. $mysqli->connect_error);
-    }
-	
 	//check if user exist in database using COUNT
 	$result = $mysqli->query("SELECT COUNT(google_id) as usercount FROM users WHERE google_id=$user->id");
 	$user_count = $result->fetch_object()->usercount; //will return 0 if user doesn't exist
@@ -106,7 +103,8 @@ else {
 		$statement->bind_param('issss', $user->id,  $user->name, $user->email, $user->link, $user->picture);
 		$statement->execute();
 		echo $mysqli->error;
-    }
+  }
+  
     //show user picture
 	echo '<img src="'.$user->picture.'" style=" width:20%; margin-top: 33px;" />';
 	
@@ -116,6 +114,7 @@ else {
 	echo '</pre>';*/
 }
 include_once('user_navigation.php');
+echo '</div>';
 echo '</div>';
 echo '</div>';
 echo "</center>";
