@@ -77,7 +77,8 @@ if (isset($authUrl)){
 	echo '</div>';
 	echo '</div>';
 	
-} else {
+} 
+else {
 	
 	$user = $service->userinfo->get(); //get user info 
 	
@@ -88,7 +89,7 @@ if (isset($authUrl)){
     }
 	
 	//check if user exist in database using COUNT
-	$result = $mysqli->query("SELECT COUNT(google_id) as usercount FROM google_users WHERE google_id=$user->id");
+	$result = $mysqli->query("SELECT COUNT(google_id) as usercount FROM users WHERE google_id=$user->id");
 	$user_count = $result->fetch_object()->usercount; //will return 0 if user doesn't exist
 	
 	//show user picture
@@ -101,7 +102,7 @@ if (isset($authUrl)){
 	else //else greeting text "Thanks for registering"
 	{ 
         echo 'Hi '.$user->name.', Thanks for Registering! [<a href="'.$redirect_uri.'?logout=1">Log Out</a>]';
-		$statement = $mysqli->prepare("INSERT INTO google_users (google_id, google_name, google_email, google_link, google_picture_link) VALUES (?,?,?,?,?)");
+	$statement = $mysqli->prepare("INSERT INTO users (google_id, name, email, link, picture) VALUES (?,?,?,?,?)");
 		$statement->bind_param('issss', $user->id,  $user->name, $user->email, $user->link, $user->picture);
 		$statement->execute();
 		echo $mysqli->error;
