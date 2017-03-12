@@ -2,6 +2,8 @@
 session_start(); //session start
 
 require_once ('libraries/Google/autoload.php');
+include_once('stylesheets.php'); 
+include_once('header.php');
 
 //Insert your cient ID and secret 
 //You can get it from : https://console.developers.google.com/
@@ -68,13 +70,15 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
 
 
 //Display user info or display login url as per the info we have.
-echo '<div style="margin:20px">';
+echo '<div class="jumbotron">';
+echo '<div class="container">';
 if (isset($authUrl)){ 
 	//show login url
 	echo '<div align="center">';
-	echo '<h3>Login with Google -- Demo</h3>';
-	echo '<div>Please click login button to connect to Google.</div>';
-	echo '<a class="login" href="' . $authUrl . '"><img src="images/signin_button.png" /></a>';
+	echo '<img class="btlog1" src="images/logo.png"><br>';
+	echo "<h3><code>Team .EXE wants you to Sign In to yor Google account</code></h3><br>";
+	echo '<a class="login" href="' . $authUrl . '"><img class="btlog1" src="images/signin_button.png" /></a>';
+	echo '</div>';
 	echo '</div>';
 	
 } else {
