@@ -32,6 +32,8 @@
       echo "</center>";
       echo "</div>";
       echo "</div>";
+      include_once('footer.php');
 ?>
+
 </body>
 </html>

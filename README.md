@@ -10,3 +10,4 @@
 - [ ] Develop admin (admin/) interface.
 - [ ] Update index.php with events names & good quality pictures.
 - [ ] Adding functionality to admin/ .
+- [ ] Add sharing buttons to every pages & posts.
