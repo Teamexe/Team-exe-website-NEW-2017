@@ -10,7 +10,8 @@ include_once('dbconnect.php');
 //You can get it from : https://console.developers.google.com/
 $client_id = '307712715810-5gqv439ef8l9hmmod3ggpbdplcc7t7gq.apps.googleusercontent.com'; 
 $client_secret = 'yvXrJI4PIvIEtJr4G-DBd44N';
-$redirect_uri = 'http://exe.nith.ac.in/login.php';
+//$redirect_uri = 'http://exe.nith.ac.in/login.php';
+$redirect_uri='http://localhost/github/Team-exe-website-NEW-2017/login.php';
 
 
 //incase of logout request, just unset the session var
@@ -66,6 +67,7 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
 
 
 //Display user info or display login url as per the info we have.
+echo "<br><br><br>";
 echo '<div class="jumbotron">';
 echo '<div class="container">';
 if (isset($authUrl)){ 
@@ -74,14 +76,13 @@ if (isset($authUrl)){
 	echo '<img class="btlog1" src="images/logo.png"><br>';
 	echo "<h3><code>Team .EXE wants you to Sign In to yor Google account</code></h3><br>";
 	echo '<a class="login" href="' . $authUrl . '"><img class="btlog1" src="images/signin_button.png" /></a>';
-	echo '</div>';
-	echo '</div>';
 	
 } 
 else {
-	
 	$user = $service->userinfo->get(); //get user info 
-	
+	$_SESSION['login_user']=$user['id'];
+	include_once('user_session.php');
+
 	// connect to database
 	$mysqli = new mysqli($host_name, $db_username, $db_password, $db_name);
     if ($mysqli->connect_error) {
@@ -91,27 +92,32 @@ else {
 	//check if user exist in database using COUNT
 	$result = $mysqli->query("SELECT COUNT(google_id) as usercount FROM users WHERE google_id=$user->id");
 	$user_count = $result->fetch_object()->usercount; //will return 0 if user doesn't exist
-	
-	//show user picture
-	echo '<img src="'.$user->picture.'" style="float: right;margin-top: 33px;" />';
-	
+
+	echo "<center>";
+		
 	if($user_count) //if user already exist change greeting text to "Welcome Back"
     {
-        echo 'Welcome back '.$user->name.'! [<a href="'.$redirect_uri.'?logout=1">Log Out</a>]';
+        echo '<code><h3> Welcome back <b><a href="profile.php">'.$user->name.'</a></b> Nice to see you again </h3></code>';
     }
 	else //else greeting text "Thanks for registering"
 	{ 
-        echo 'Hi '.$user->name.', Thanks for Registering! [<a href="'.$redirect_uri.'?logout=1">Log Out</a>]';
+        echo '<code><h3>Hi <b><a href="profile.php">'.$user->name.'</a></b>, Thanks for Registering!</code></h3>';
 	$statement = $mysqli->prepare("INSERT INTO users (google_id, name, email, link, picture) VALUES (?,?,?,?,?)");
 		$statement->bind_param('issss', $user->id,  $user->name, $user->email, $user->link, $user->picture);
 		$statement->execute();
 		echo $mysqli->error;
     }
+    //show user picture
+	echo '<img src="'.$user->picture.'" style=" width:20%; margin-top: 33px;" />';
 	
 	//print user details
-	echo '<pre>';
+	/*echo '<pre>';
 	print_r($user);
-	echo '</pre>';
+	echo '</pre>';*/
 }
+include_once('user_navigation.php');
 echo '</div>';
+echo '</div>';
+echo "</center>";
+include_once('footer.php');
 ?>
