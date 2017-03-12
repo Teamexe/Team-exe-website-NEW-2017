@@ -16,6 +16,7 @@
     <link rel="icon" href="images/title.png">
 
     <title><?php echo $session_usr; ?> - Team .EXE</title>
+
   </head>
 
   <body>
@@ -32,6 +33,10 @@
       echo "</center>";
       echo "</div>";
       echo "</div>";
+      include_once('navigation.php');
+      include_once('footer.php');
 ?>
+        
+
 </body>
 </html>
