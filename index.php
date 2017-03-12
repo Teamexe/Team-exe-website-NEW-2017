@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-signin-client_id" content="307712715810-5gqv439ef8l9hmmod3ggpbdplcc7t7gq.apps.googleusercontent.com">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Team .EXE is the technical team of Computer Science & Engineering Department for technical fest NIMBUS at NIT Hamirpur.">
     <meta name="author" content="Team .EXE">
@@ -11,32 +12,11 @@
 
     <title>Team .EXE</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/slider.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/carousel.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/jquery.fancybox.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" content="307712715810-5gqv439ef8l9hmmod3ggpbdplcc7t7gq.apps.googleusercontent.com">
+    <?php 
+          include_once('stylesheets.php');
+          include_once('gplus-php/main.php');
+          
+    ?>
   </head>
 
   <body>
@@ -60,16 +40,22 @@
                     <div class="navbar-brand">
                         <a href="index.php" >
                             <img src="images/logo.png" alt="Team .EXE logo" title="Team .EXE logo"> 
-                           
                         </a>
                     </div>
                     <!-- /logo -->
                 </div>
                 <!-- main menu -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                <div class="g-signin2" data-onsuccess="onSignIn"></div>
-
-                    <!-- <div class="main-menu">
+                <div class="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                
+   <img id="customBtn" src="images/signin_button.png" onClick="signInClick()" alt="Sign in with Google+" />
+  
+                            </li>
+                        </ul>
+                  </div>
+                <!-- <div class="main-menu">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
                                 <a href="git.html" >Git</a>
@@ -134,7 +120,8 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
-
+<div><center>
+</center></div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
@@ -216,8 +203,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    
   </body>
 </html>
