@@ -32,18 +32,21 @@
   $day=date("D");
   
   $fp = fopen('bugs.txt', 'a');
-  fwrite($fp, ''.$day.','.$dat.' - '.$nam.' -> '.$info.' ');
+  fwrite($fp, ''.$day.','.$dat.' - '.$nam.' -> '.$info.''.PHP_EOL);
   fclose($fp);
 
 ?>       
+    
+    <?php
+          echo "<center>";
+          echo "<br><h2><code>Thanks for reporting bug<br>Your contribution will help making this website better<br><a>Report Another</a></code></h2><br><br>";
+          echo "</center>";
+          } 
+    ?>
     <center>
     <div class="container">
     <h1>Bugs in Team .EXE Website (Beta)</h1>
     <p>Please report bugs you've encountered while accessing Team .EXE's website</p>
-    <?php
-          echo "<br><h2><code>Thanks for reporting bug<br>Your contribution will help making this website better<br><a>Report Another<a></code></h2><br><br>";
-          } 
-    ?>
     <form id="elective-form" action="" method="post" role="form" >
                   <div class="form-group">
                     <input type="text" name="nam" id="nam" tabindex="1" class="form-control" placeholder="Your Name" value="" required>
