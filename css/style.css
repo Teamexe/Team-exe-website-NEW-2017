@@ -193,3 +193,8 @@ ul#navigation li a {
     font-size: 63px;
   }
 }
+
+/* fix logout button header */
+.abc{
+      color: #337ab7;
+}
