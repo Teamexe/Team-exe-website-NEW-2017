@@ -2,16 +2,16 @@
         </section>
         <?php
                 include_once('dbconnect.php');
-                $namee=basename($_SERVER['PHP_SELF']); /* Returns The Current PHP File Name */
-                echo "$namee";
                 
-                //fetching page count from database
+                //Get the name of current page open in browser
+                $namee=basename($_SERVER['PHP_SELF']); 
+                
+                //fetching page count from database for particular page
                 $qry=mysqli_query($link,"SELECT * from hits where nam='$namee'");
                 while($rowa = mysqli_fetch_assoc($qry))
                 {
                     //getting count INT
                     $out=$rowa['cnt'];
-                    echo "$out";
                 }
 
                 //now incrementing 1 in the fetched value

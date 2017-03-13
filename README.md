@@ -4,7 +4,7 @@
 
 ## TODO
 - [x] Create pages about, contact, projects, events - using the same structure as of the index.php (home) page.
-- [ ] Add views counter to every page which updates & fetches values from database (Alter the existing SQL table).
+- [x] Add views counter to every page which updates & fetches values from database (Alter the existing SQL table).
 - [x] Create different pages for coordinators (includes faculty coordinator), executives & volunteers.
 - [ ] Customize footer (footer.php) to make it look good.
 - [ ] Develop admin (admin/) interface.
