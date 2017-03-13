@@ -1,5 +1,25 @@
 <section class="global-page-header">
         </section>
+        <?php
+                include_once('dbconnect.php');
+                $namee=basename($_SERVER['PHP_SELF']); /* Returns The Current PHP File Name */
+                echo "$namee";
+                
+                //fetching page count from database
+                $qry=mysqli_query($link,"SELECT * from hits where nam='$namee'");
+                while($rowa = mysqli_fetch_assoc($qry))
+                {
+                    //getting count INT
+                    $out=$rowa['cnt'];
+                    echo "$out";
+                }
+
+                //now incrementing 1 in the fetched value
+                ++$out;
+                //updating the new value in database
+                $qryu=mysqli_query($link,"UPDATE hits SET cnt='$out' WHERE nam='$namee'");
+
+        ?>
 <footer class="footer">
     <div class="container">
     <div class="col-md-8">
