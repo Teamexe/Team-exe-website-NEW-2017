@@ -17,4 +17,4 @@
 - [ ] Add meta tags to every page for easy indexing & elegant sharing on social media platforms.
 
 ## Required
-- [ ] Latest Photos of team members, combined & year wise
+- [ ] Latest Photos of team members, combined & year wise.
