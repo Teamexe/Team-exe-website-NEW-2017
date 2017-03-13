@@ -87,7 +87,7 @@
       <div class="container">
       <center>
       <h1>View us on Youtube</h1>
-       <iframe width="854" height="480" src="https://www.youtube.com/embed/q-1xo9zGG2U" frameborder="0" allowfullscreen></iframe>
+       <iframe width="100%" height="480" src="https://www.youtube.com/embed/q-1xo9zGG2U" frameborder="0" allowfullscreen></iframe>
       </center>
       </div>
 <section class="global-page-header">
@@ -95,7 +95,7 @@
       <div class="container">
       <center>
       <h1>Locate on Google maps</h1>
-       <iframe width="600" height="450" frameborder="0" style="border:0"
+       <iframe width="100%" height="450" frameborder="0" style="border:0"
 src="https://www.google.com/maps/embed/v1/view?zoom=13&center=31.7096,76.5199&key=AIzaSyCSuEfrfFj7mrhUvdpqP8ixAdH1yw437i8" allowfullscreen></iframe> 
       </center>
       </div>
