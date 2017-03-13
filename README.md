@@ -13,5 +13,6 @@
 - [ ] Add sharing buttons to every pages & posts.
 - [x] Add navigation bar
 - [ ] Correct the external iframes on contact page
+
 ## Required
 - [ ] Latest Photos of team members, combined & year wise
