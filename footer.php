@@ -12,6 +12,7 @@
                 {
                     //getting count INT
                     $out=$rowa['cnt'];
+                    //echo "$out";
                 }
 
                 //now incrementing 1 in the fetched value

@@ -11,14 +11,14 @@ include_once('dbconnect.php');
 //You can get it from : https://console.developers.google.com/
 $client_id = '307712715810-5gqv439ef8l9hmmod3ggpbdplcc7t7gq.apps.googleusercontent.com'; 
 $client_secret = 'yvXrJI4PIvIEtJr4G-DBd44N';
-//$redirect_uri = 'http://exe.nith.ac.in/login.php';
-$redirect_uri='http://localhost/exe/login.php';
+$redirect_uri = 'http://localhost/exe/login.php';
 
-
-//incase of logout request, just unset the session var
-if (isset($_GET['logout'])) {
-  unset($_SESSION['access_token']);
-}
+/*//database
+$db_username = "xxxxxxxxx"; //Database Username
+$db_password = "xxxxxxxxx"; //Database Password
+$host_name = "localhost"; //Mysql Hostname
+$db_name = 'xxxxxxxxx'; //Database Name
+*/
 
 /************************************************
   Make an API request on behalf of a user. In
@@ -49,7 +49,8 @@ $service = new Google_Service_Oauth2($client);
   bundle in the session, and redirect to ourself.
 */
   
-if (isset($_GET['code'])) {
+if (isset($_GET['code'])) 
+{
   $client->authenticate($_GET['code']);
   $_SESSION['access_token'] = $client->getAccessToken();
   header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
@@ -60,17 +61,20 @@ if (isset($_GET['code'])) {
   If we have an access token, we can make
   requests, else we generate an authentication URL.
  ************************************************/
-if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
+if (isset($_SESSION['access_token']) && $_SESSION['access_token']) 
+{
   $client->setAccessToken($_SESSION['access_token']);
-} else {
+} 
+else 
+{
   $authUrl = $client->createAuthUrl();
 }
-
 
 //Display user info or display login url as per the info we have.
 echo "<br><br><br>";
 echo '<div class="jumbotron">';
 echo '<div class="container">';
+
 if (isset($authUrl))
 { 
 	//show login url
@@ -82,31 +86,27 @@ if (isset($authUrl))
 } 
 else 
 {
+	
 	$user = $service->userinfo->get(); //get user info 
 	$_SESSION['login_user']=$user['id'];
 	include_once('user_session.php');
-
+	
 	//check if user exist in database using COUNT
-	$result = $mysqli->query("SELECT COUNT(google_id) as usercount FROM users WHERE google_id=$user->id");
-	$user_count = $result->fetch_object()->usercount; //will return 0 if user doesn't exist
-
-	echo "<center>";
-		
-	if($user_count) //if user already exist change greeting text to "Welcome Back"
+$resulta = mysqli_query($link,"SELECT COUNT(google_id) as usercount FROM users WHERE google_id=$user->id");
+$user_count = $resulta->fetch_object()->usercount; //will return 0 if user doesn't exist
+	
+	//show user picture
+	echo '<img src="'.$user->picture.'" style="float: right;margin-top: 33px;" />';
+	
+	if($user_count!=0) //if user already exist change greeting text to "Welcome Back"
     {
-        echo '<code><h3> Welcome back <b><a href="profile.php">'.$user->name.'</a></b> Nice to see you again </h3></code>';
+        echo '<code><h3> Welcome back <b><a href="profile.php">'.$user->name.'</a></b> Nice to see you again!</h3></code>';
     }
 	else //else greeting text "Thanks for registering"
 	{ 
         echo '<code><h3>Hi <b><a href="profile.php">'.$user->name.'</a></b>, Thanks for Registering!</code></h3>';
-	$statement = $mysqli->prepare("INSERT INTO users (google_id, name, email, link, picture) VALUES (?,?,?,?,?)");
-		$statement->bind_param('issss', $user->id,  $user->name, $user->email, $user->link, $user->picture);
-		$statement->execute();
-		echo $mysqli->error;
-  }
-  
-    //show user picture
-	echo '<img src="'.$user->picture.'" style=" width:20%; margin-top: 33px;" />';
+		$qaryu=mysqli_query($link,"INSERT INTO users (google_id, name, email, link, picture) VALUES('$user->id','$user->name', '$user->email', '$user->link', '$user->picture')");
+    }
 	
 	//print user details
 	/*echo '<pre>';
@@ -119,4 +119,6 @@ echo '</div>';
 echo '</div>';
 echo "</center>";
 include_once('footer.php');
+
 ?>
+

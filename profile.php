@@ -29,6 +29,17 @@
       echo "<center>";
       echo '<h1><code>'; 
       echo $session_usr; 
+      echo "<br>";
+      //echo "$user_check";
+
+      //Displaying user image after fetching from database
+      $qryya=mysqli_query($link,"SELECT picture FROM users WHERE google_id='$user_check'");
+      while($rowaa = mysqli_fetch_assoc($qryya))
+      {
+        $pic=$rowaa['picture'];
+      }
+      print("<img src=".$pic." width=25% />");
+
       echo '</h1><br><h2>Profile coming soon</code></h2><br>';
       echo "</center>";
       echo "</div>";
