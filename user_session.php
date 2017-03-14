@@ -22,9 +22,8 @@
 */
 
 
-   if(!isset($_SESSION['login_user']))
+   if(!isset($_SESSION['login_user'])||$_SESSION['login_user']=='')
    {
-      //update it later
-      //header("location:login.php");
+      //update later
    }
 ?>

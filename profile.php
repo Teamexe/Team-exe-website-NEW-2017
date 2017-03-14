@@ -22,6 +22,10 @@
   <body>
 <?php 
       include_once('header.php');
+      if(!isset($_SESSION['login_user'])||$_SESSION['login_user']=='')
+      {
+          header("location:login.php");
+      }
 
       echo "<br><br><br>";
       echo '<div class="jumbotron">';
