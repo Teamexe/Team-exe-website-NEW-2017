@@ -29,18 +29,20 @@
       echo "<center>";
       echo '<h1><code>'; 
       echo $session_usr; 
-      echo "<br>";
+      echo "<br></code>";
       //echo "$user_check";
 
       //Displaying user image after fetching from database
-      $qryya=mysqli_query($link,"SELECT picture FROM users WHERE google_id='$user_check'");
+      $qryya=mysqli_query($link,"SELECT link,picture FROM users WHERE google_id='$user_check'");
       while($rowaa = mysqli_fetch_assoc($qryya))
       {
+        $gp=$rowaa['link'];
         $pic=$rowaa['picture'];
       }
+      print("<h3><a href=".$gp." alt='View Google Plus Profile'>View Your Google+ Profile</a></h3><br>");
       print("<img src=".$pic." width=25% />");
 
-      echo '</h1><br><h2>Profile coming soon</code></h2><br>';
+      echo '</h1><br><h2>Profile coming soon</h2><br>';
       echo "</center>";
       echo "</div>";
       echo "</div>";
