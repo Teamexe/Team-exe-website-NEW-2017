@@ -27,6 +27,7 @@
 .ft{
 	width: 40px;
 	padding-right: 15px;
+  float: right;
 }
 .ft:hover{
 	width: 45px;

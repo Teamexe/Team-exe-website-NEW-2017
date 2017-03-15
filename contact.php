@@ -102,9 +102,6 @@ src="https://www.google.com/maps/embed/v1/view?zoom=13&center=31.7096,76.5199&ke
 
 <?php
     include_once('footer.php');
-?> <!-- /container -->
-
-    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-    
-  </body>
+?> 
+</body>
 </html>
