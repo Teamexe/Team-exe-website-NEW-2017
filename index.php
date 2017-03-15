@@ -23,8 +23,51 @@
       include_once('header.php');
       include_once('navigation.php');
 ?>       
-    
 
+
+<div class="content">
+            <svg viewBox="0 0 1200 200">
+                <symbol id="s-text">
+                    <text text-anchor="middle" x="50%" y="50%" dy=".35em">
+                        Team .EXE
+                    </text>
+                </symbol>
+                <!-- Duplicate symbols -->
+                <use xlink:href="#s-text" class="text"></use>
+                <use xlink:href="#s-text" class="text"></use>
+                <use xlink:href="#s-text" class="text"></use>
+                <use xlink:href="#s-text" class="text"></use>
+                <use xlink:href="#s-text" class="text"></use>
+            </svg>
+            
+            <svg viewBox="0 0 1900 200">
+                <symbol id="s-text">
+                    <text text-anchor="middle" x="50%" y="50%" dy=".35em" class="text--line">
+                        welcomes you
+                    </text>
+                </symbol>
+                <clippath id="cp-text">
+                    <text text-anchor="middle" x="50%" y="50%" dy=".35em" class="text--line">
+                        welcomes you
+                    </text>
+                </clippath>
+                <g clip-path="url(#cp-text)" class="shadow">
+                    <rect width="100%" height="100%" class="anim-shape anim-shape--shadow"></rect>
+                </g>
+                <g clip-path="url(#cp-text)" class="colortext">
+                    <!-- Animated shapes inside text -->
+                    <rect width="100%" height="100%" class="anim-shape"></rect>
+                    <rect width="80%" height="100%" class="anim-shape"></rect>
+                    <rect width="60%" height="100%" class="anim-shape"></rect>
+                    <rect width="40%" height="100%" class="anim-shape"></rect>
+                    <rect width="20%" height="100%" class="anim-shape"></rect>
+                </g>
+                <use xlink:href="#s-text" class="text--transparent"></use>
+            </svg>
+        </div>
+
+<section class="global-page-header">
+        </section>
  <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">

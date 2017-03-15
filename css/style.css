@@ -55,6 +55,7 @@
    text-transform: uppercase;
    text-decoration: none;
 }
+
 }
 
 .btlog{
@@ -181,8 +182,7 @@ ul#navigation li a {
 }
 
 .jumbotrona {
-  color: inherit;
-  background-image: url('../images/books.jpg');
+  color: inherit;w
   width: 90%;
   background-color: #eee;
 }
@@ -205,6 +205,7 @@ ul#navigation li a {
 .jumbotrona .container {
   max-width: 95%;
 }
+
 @media screen and (min-width: 768px) {
   .jumbotrona {
     padding-top: 40px;
