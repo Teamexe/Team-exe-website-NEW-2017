@@ -19,7 +19,6 @@
                 ++$out;
                 //updating the new value in database
                 $qryu=mysqli_query($link,"UPDATE hits SET cnt='$out' WHERE nam='$namee'");
-
         ?>
 <footer class="footer">
     <div class="container">

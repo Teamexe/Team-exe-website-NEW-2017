@@ -14,6 +14,7 @@
       $session_usr=$row['name'];
       //echo $session; to check the username
    }
+
 /*
    if(!isset($_SESSION['login_user'])|| $login_session=='')
    {

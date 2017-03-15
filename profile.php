@@ -44,7 +44,7 @@
         $pic=$rowaa['picture'];
       }
       print("<h3><a href=".$gp." alt='View Google Plus Profile'>View Your Google+ Profile</a></h3><br>");
-      print("<img src=".$pic." width=25% />");
+      print("<img src=".$pic." width=40% />");
 
       echo '</h1><br><h2>Profile coming soon</h2><br>';
       echo "</center>";
