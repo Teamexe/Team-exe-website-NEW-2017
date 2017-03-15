@@ -43,10 +43,9 @@
         $gp=$rowaa['link'];
         $pic=$rowaa['picture'];
       }
-      print("<h3><a href=".$gp." alt='View Google Plus Profile'>View Your Google+ Profile</a></h3><br>");
+      echo '</h1><br><h2><a href="view.php">View all registered users</a></h2><br>';
       print("<img src=".$pic." width=40% />");
 
-      echo '</h1><br><h2><a href="view.php">View all registered users</a></h2><br>';
       echo "</center>";
       echo "</div>";
       echo "</div>";

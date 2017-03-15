@@ -51,6 +51,7 @@
       }
 
       echo "</table>";
+      echo "<h3>$i Registered users found</h3>";
       echo "</center>";
       echo "</div>";
       echo "</div>";
