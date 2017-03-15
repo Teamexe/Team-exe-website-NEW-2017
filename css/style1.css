@@ -53,6 +53,14 @@ svg {
   text-transform: uppercase; 
 }
 
+@media screen and (max-width: 768px)
+{
+  svg 
+  {
+  width: 80%; 
+  }
+}
+
 /* Main stuff */
 .text--transparent {
   fill: transparent; }
