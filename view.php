@@ -15,38 +15,42 @@
     <meta name="author" content="Team .EXE">
     <link rel="icon" href="images/title.png">
 
-    <title><?php echo $session_usr; ?> - Team .EXE</title>
+    <title>View Users - Team .EXE</title>
 
   </head>
 
   <body>
 <?php 
       include_once('header.php');
-      if(!isset($_SESSION['login_user'])||$_SESSION['login_user']=='')
-      {
-          header("location:login.php");
-      }
-
+      
       echo "<br><br><br>";
       echo '<div class="jumbotron">';
       echo '<div class="container">';
       echo "<center>";
-      echo '<h1><code>'; 
-      echo $session_usr; 
-      echo "<br></code>";
+      echo '<h2><code>';
+      echo "Registered Users</h2></code><br>";
+      echo "<table>";
       //echo "$user_check";
 
       //Displaying user image after fetching from database
-      $qryya=mysqli_query($link,"SELECT link,picture FROM users WHERE google_id='$user_check'");
-      while($rowaa = mysqli_fetch_assoc($qryya))
+      $qryya=mysqli_query($link,"SELECT name,link,picture FROM users order by name asc");
+      $i=0;
+      while($rowaa = mysqli_fetch_array($qryya))
       {
-        $gp=$rowaa['link'];
-        $pic=$rowaa['picture'];
+        $i++;
+        $n=$rowaa['name'];
+        $l=$rowaa['link'];
+        $p=$rowaa['picture'];
+      
+      ?>
+      <tr>
+      <td><?php print("<a href=".$l.">"); print("<img src=".$p." width=30% />"); print("</a>"); ?></td>
+      <td><?php print("<a href=".$l."><button class='btn btn-info' type='button'>"); echo $n; print("</button></a>"); ?></td>
+      </tr>
+      <?php     
       }
-      print("<h3><a href=".$gp." alt='View Google Plus Profile'>View Your Google+ Profile</a></h3><br>");
-      print("<img src=".$pic." width=40% />");
 
-      echo '</h1><br><h2><a href="view.php">View all registered users</a></h2><br>';
+      echo "</table>";
       echo "</center>";
       echo "</div>";
       echo "</div>";
