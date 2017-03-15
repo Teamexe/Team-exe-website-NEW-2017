@@ -35,6 +35,7 @@
       //Displaying user image after fetching from database
       $qryya=mysqli_query($link,"SELECT name,link,picture FROM users order by name asc");
       $i=0;
+      $bl="_blank";
       while($rowaa = mysqli_fetch_array($qryya))
       {
         $i++;
@@ -43,9 +44,10 @@
         $p=$rowaa['picture'];
       
       ?>
+      
       <tr>
-      <td><?php print("<a href=".$l.">"); print("<img src=".$p." width=30% />"); print("</a>"); ?></td>
-      <td><?php print("<a href=".$l."><button class='btn btn-info' type='button'>"); echo $n; print("</button></a>"); ?></td>
+      <td><?php print("<a href=".$l." target=".$bl." >"); print("<img src=".$p." width=30% />"); print("</a>"); ?></td>
+      <td><?php print("<a href=".$l." target=".$bl." ><button class='btn btn-info' type='button'>"); echo $n; print("</button></a>"); ?></td>
       </tr>
       <?php     
       }

@@ -26,15 +26,18 @@
     <center>
     <div class="container">
     <h1>Team .EXE</h1>
-    <p> Page updating soon. </p>
+    <h2><a href="view.php">View registered users on our website</a></h2>
+    </center>
 </div>
+
+    
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotrona">
         <h2>Team .EXE - 2016</h2>
         <img src="images/team.jpg" alt="Team .EXE" title="Team .EXE - credits : Pixonoids" style="width: 100%" />
     </div>
     </center>
-    
+  
 
 <?php
     include_once('footer.php');
