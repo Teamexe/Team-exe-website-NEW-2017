@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://exe.nith.ac.in/</loc>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/index.php</loc>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/login.php</loc>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/about.php</loc>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/contact.php</loc>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/projects.php</loc>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/events.php</loc>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/members.php</loc>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/view.php</loc>
+</url>
+</urlset>
