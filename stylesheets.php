@@ -1,4 +1,6 @@
 <!-- Bootstrap core CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet"> 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
