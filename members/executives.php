@@ -10,7 +10,7 @@
 	<body>
 		<div class="container">
 		<center>
-		<h1>Coordinators - Team .EXE</h1>
+		<h1>Executives - Team .EXE</h1>
 		</center>
 			
 			<div class="content">
@@ -18,7 +18,7 @@
 <?php
 
 	  include_once('../dbconnect.php');
-	  $qr=mysqli_query($link,"SELECT * FROM coordinators order by sno asc");
+	  $qr=mysqli_query($link,"SELECT * FROM executives order by fname asc");
       $i=0;
       while($roa = mysqli_fetch_array($qr))
       {
@@ -26,12 +26,9 @@
         $f=$roa['fname'];
         $l=$roa['lname'];
         $img=$roa['pic'];
-        $fa=$roa['field1'];
-        $fb=$roa['field2'];
-        $fc=$roa['field3'];
-      
+        $fa=$roa['field1'];      
       ?>
-					<figure class="effect-julia">
+					<figure class="effect-apollo">
 						<img src="<?php echo $img; ?>" alt="<?php echo $f; echo $l; ?>"/>
 						<figcaption>
 							<h2><?php echo "$f "; ?><span><?php echo $l; ?></span></h2>
@@ -39,12 +36,8 @@
 							<?php 
 											echo "<p>";
 											echo $fa;
-											echo "</p><br><p>";
-											echo $fb;
-											echo "</p><br><p>";
-											echo $fc;
 											echo "</p>";
-						   ?>
+							?>
 							</div>
 						</figcaption>			
 					</figure>

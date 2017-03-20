@@ -22,10 +22,6 @@
       include_once('header.php');
       include_once('navigation.php');
 ?>       
-    <center>
-    <div class="container">
-    <h1>Members - Team .EXE</h1>
-    </center>
 </div>
 <center>
 <iframe id="fram" src="members/coordinators.php" ></iframe>    
