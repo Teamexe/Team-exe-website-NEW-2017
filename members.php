@@ -14,7 +14,6 @@
 
     <?php 
           include_once('stylesheets.php');          
-          include_once('dbconnect.php');
     ?>
   </head>
 
@@ -25,18 +24,12 @@
 ?>       
     <center>
     <div class="container">
-    <h1>Team .EXE</h1>
-    <h2><a href="view.php">View registered users on our website</a></h2>
+    <h1>Members - Team .EXE</h1>
     </center>
 </div>
-
-    
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotrona">
-        <h2>Team .EXE - 2016</h2>
-        <img src="images/team.jpg" alt="Team .EXE" title="Team .EXE - credits : Pixonoids" style="width: 100%" />
-    </div>
-    </center>
+<center>
+<iframe id="fram" src="members/coordinators.php" ></iframe>    
+</center>
   
 
 <?php
