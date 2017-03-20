@@ -117,6 +117,7 @@ $user_count = $resulta->fetch_object()->usercount; //will return 0 if user doesn
 	if($user_count!=0) //if user already exist change greeting text to "Welcome Back"
     {
         echo '<code><h3> Welcome back <b><a href="profile.php">'.$user->name.'</a></b> Nice to see you again!</h3></code>';
+        header('Location: profile.php');
     }
 	else //else greeting text "Thanks for registering"
 	{ 
