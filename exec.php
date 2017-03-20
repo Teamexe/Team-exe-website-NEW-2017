@@ -24,10 +24,10 @@
 ?>       
 </div>
 <center>
-<iframe id="fram" src="members/coordinators.php" ></iframe>  
-<a href="exec.php"><button class="btn-info btn">View Executive members</button></a>
+<iframe id="fram" src="members/executives.php" ></iframe>  
+<a href="vol.php"><button class="btn-info btn">View Volunteers</button></a>
 </center>
-
+  
 
 <?php
     include_once('footer.php');

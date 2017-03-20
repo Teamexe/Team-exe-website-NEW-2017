@@ -24,10 +24,9 @@
 ?>       
 </div>
 <center>
-<iframe id="fram" src="members/coordinators.php" ></iframe>  
-<a href="exec.php"><button class="btn-info btn">View Executive members</button></a>
+<iframe id="fram" src="members/volunteers.php" ></iframe>  
 </center>
-
+  
 
 <?php
     include_once('footer.php');
