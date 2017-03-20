@@ -28,7 +28,14 @@
       echo '<div class="container">';
       echo "<center>";
       echo '<h2><code>';
-      echo "Registered Users</h2></code><br>";
+      echo "Registered Users - <b>";
+      
+      //fetch user count from database
+      $qr=mysqli_query($link," SELECT COUNT(google_id) as total FROM users");
+      $num_rows = mysqli_fetch_assoc($qr);
+      echo $num_rows['total'];
+      echo "</b></h2></code><br>";
+
       echo "<table>";
       //echo "$user_check";
 
@@ -53,7 +60,6 @@
       }
 
       echo "</table>";
-      echo "<h3>$i Registered users found</h3>";
       echo "</center>";
       echo "</div>";
       echo "</div>";
