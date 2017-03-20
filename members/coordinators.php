@@ -15,7 +15,7 @@
 <?php
 
 	  include_once('../dbconnect.php');
-	  $qr=mysqli_query($link,"SELECT * FROM coordinators order by id asc");
+	  $qr=mysqli_query($link,"SELECT * FROM coordinators order by sno asc");
       $i=0;
       while($roa = mysqli_fetch_array($qr))
       {
