@@ -16,11 +16,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.css">
     <!-- Design on main page -->
     <link rel="stylesheet" type="text/css" href="css/style1.css" />
     <!-- Javascripts -->
     <script src="js/modernizr-2.6.2.min.js"></script>
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.popup.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>

@@ -1,3 +1,7 @@
+         <?php
+              //Get the name of current page open in browser
+                $head_nm=basename($_SERVER['PHP_SELF']); 
+         ?>
          <header id="top-bar" class="navbar-fixed-top animated-header">
             <div class="container">
                 <div class="navbar-header">
@@ -23,6 +27,12 @@
                 <div class="main-menu">
                         <ul class="navbar-right">
                             <li>
+                            <a href="index.php"><button class="btn <?php if($head_nm!=='index.php') echo 'abc'; ?>" type="button">Home</button></a>
+                            <a href="about.php"><button class="btn <?php if($head_nm!=='about.php') echo 'abc'; ?>" type="button">About</button></a>
+                            <a href="contact.php"><button class="btn <?php if($head_nm!=='contact.php') echo 'abc'; ?>" type="button">Contact</button></a>
+                            <a href="projects.php"><button class="btn <?php if($head_nm!=='projects.php') echo 'abc'; ?>" type="button">Projects</button></a>
+                            <a href="events.php"><button class="btn <?php if($head_nm!=='events.php') echo 'abc'; ?>" type="button">Events</button></a>
+
 <?php 
 include_once('user_session.php');
  
@@ -33,11 +43,12 @@ include_once('user_session.php');
    //if user session is set then redirecting user to profile
    else
    {
-       echo '<a href="profile.php"><button class="btn" type="button">',$session_usr;'</button></a>'; 
+       echo '<a href="profile.php"><button class="btn abc" type="button">';
+       echo $session_usr;
+       echo '</button></a>'; 
        echo '<a href="logout.php"><button class="btn  abc" type="button">Logout</button></a>';
    }
 ?>
-                                  
                             </li>
                         </ul>
                   </div>
