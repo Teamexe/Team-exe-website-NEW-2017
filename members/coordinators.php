@@ -11,6 +11,7 @@
 		<div class="container">
 		<center>
 		<h1>Coordinators - Team .EXE</h1>
+		<img src="../images/coordinators.jpg" alt="">
 		</center>
 			
 			<div class="content">
