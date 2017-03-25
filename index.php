@@ -27,7 +27,7 @@
 <!-- Fade & scale -->
 <div id="fadeandscale" class="content cover">
 <center>
-<img src="images/logo.png" width="30%">
+<img src="images/logo.png" />
     <svg viewBox="0 0 1200 200">
                 <symbol id="s-text">
                     <text text-anchor="middle" x="50%" y="50%" dy=".35em">
