@@ -39,8 +39,16 @@
                                         </ul>
                                 </div>
                             </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Activities <span class="caret"></span></a>
+                                <div class="dropdown-menu">
+                                    <ul>
                             <li><a href="projects.php" class="tooltip-show" data-toggle="tooltip" title="View Projects by Team .EXE">Projects</a></li>
                             <li><a href="events.php" class="tooltip-show" data-toggle="tooltip" title="View Events by Team .EXE">Events</a></li>
+                            <li><a href="workshops.php" class="tooltip-show" data-toggle="tooltip" title="View Events by Team .EXE">workshops</a></li>
+                                </div>
+                            </li>
+                            
 
 <?php 
 include_once('user_session.php');

@@ -26,13 +26,97 @@
     <center>
     <div class="container">
     <h1>Projects by Team .EXE</h1>
-    <p> Page updating soon. </p>
 </div>
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotrona">
-        <img src="images/team.jpg" alt="Team .EXE" title="Team .EXE - credits : Pixonoids" style="width: 100%" />
-    </div>
     </center>
+
+    <section id="blog-full-width">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="sidebar">
+                                
+                                   
+                                    <div class="categories widget">
+                                        <h3 class="widget-head">Our Projects (Open source)</h3>
+                                        <ul>
+                                            <li>
+                                                <a>Open Elective Manager (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>Hostel Allotment (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>Intranet Video Chat (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>Confession Website (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>Photo Liker (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>AI bot (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="categories widget">
+                                        <h3 class="widget-head">Other Projects to be displayed</h3>
+                                        <ul>
+                                            <li>
+                                                <a>Secure Shell (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>GnuPG (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>Discourse (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>Program-O (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>Mozilla Thunderbird (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>OpenVPN (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>Tor Project (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>Wine (Open source)</a> <span class="badge">New</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-8">
+                                <article class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">
+                                    <div class="blog-post-image">
+                                        
+                                    </div>
+                                    <div class="blog-content">
+
+                                        <h2 class="blogpost-title">
+                                        <a>Description of projects</a>
+                                        </h2>
+                                        <p>
+                                            Coming soon.
+                                        </p>
+                                        
+                                        
+                                    </div>
+                                </article>
+
+
+                                </div>
+                        </div>
+                    </section>
     
 
 <?php
