@@ -1,8 +1,6 @@
 <div class="row">
                         <div class="col-md-4">
-                            <div class="sidebar">
-                                
-                                   
+                            <div class="sidebar"><h1 style="color: #02bdd5">Our Workshops</h1>
                                     <div class="categories widget">
                                         <h3 class="widget-head">Our Workshops (Over)</h3>
                                         <ul>

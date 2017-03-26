@@ -1,9 +1,7 @@
 <div class="row">
                         <div class="col-md-4">
-                            <div class="sidebar">
-                                
-                                   
-                                    <div class="categories widget">
+                            <div class="sidebar"><h1 style="color: #02bdd5">Our Projects</h1>
+                            <div class="categories widget">
                                         <h3 class="widget-head">Our Projects (All - Open source)</h3>
                                         <ul>
                                             <li>

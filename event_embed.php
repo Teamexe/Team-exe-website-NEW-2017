@@ -1,8 +1,6 @@
 <div class="row">
                         <div class="col-md-4">
-                            <div class="sidebar">
-                                
-                                   
+                            <div class="sidebar"><h1 style="color: #02bdd5">Our Events</h1>
                                     <div class="categories widget">
                                         <h3 class="widget-head">Our Events (Online)</h3>
                                         <ul>
@@ -19,7 +17,7 @@
                                                 <a>Paradox 10.0</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a href="hunt_the_code.php" style="color: blue">Hunt the code 3.0</a> <span class="badge">Ongoing</span>
+                                                <a href="hunt_the_code.php" style="color: #02bdd5">Hunt the code 3.0</a> <span class="badge">Ongoing</span>
                                             </li>
                                         </ul>
                                     </div>
