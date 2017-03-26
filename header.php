@@ -24,29 +24,28 @@
                 </div>
                 <!-- main menu -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                <div class="main-menu">
-                        <ul class="navbar-right">
-                            <li>
-                            <a href="index.php"><button class="btn <?php if($head_nm!=='index.php') echo 'abc'; ?>" type="button">Home</button></a>
-                            <a href="about.php"><button class="btn <?php if($head_nm!=='about.php') echo 'abc'; ?>" type="button">About</button></a>
-                            <a href="contact.php"><button class="btn <?php if($head_nm!=='contact.php') echo 'abc'; ?>" type="button">Contact</button></a>
-                            <a href="projects.php"><button class="btn <?php if($head_nm!=='projects.php') echo 'abc'; ?>" type="button">Projects</button></a>
-                            <a href="events.php"><button class="btn <?php if($head_nm!=='events.php') echo 'abc'; ?>" type="button">Events</button></a>
+                    <div class="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.php">About</a></li>
+                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="projects.php">Projects</a></li>
+                            <li><a href="events.php">Events</a></li>
 
 <?php 
 include_once('user_session.php');
  
    if(!isset($_SESSION['login_user']))
    {
-       echo '<a href="login.php"><img class="btlog" src="images/signin_button.png"></a>';
+       echo '<li><a href="login.php">Sign In</a></li>';
    }
    //if user session is set then redirecting user to profile
    else
    {
-       echo '<a href="profile.php"><button class="btn abc" type="button">';
+       echo '<li><a href="profile.php">';
        echo $session_usr;
-       echo '</button></a>'; 
-       echo '<a href="logout.php"><button class="btn  abc" type="button">Logout</button></a>';
+       echo '</a></li>'; 
+       echo '<li><a href="logout.php">Logout</a>';
    }
 ?>
                             </li>

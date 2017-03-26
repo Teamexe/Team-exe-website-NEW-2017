@@ -133,7 +133,6 @@ $(document).ready(function () {
 </div>
 
 
-
     <div class="container">
       <center>
       <h1>All Events</h1>
