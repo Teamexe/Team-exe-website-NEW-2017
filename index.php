@@ -131,7 +131,8 @@ $(document).ready(function () {
         </div> <!--/.carousel -->
     <div>    
 </div>
-   
+
+
 
 <!-- Projects,events &workshops of Team .EXE -->
 <section id="blog-full-width">
