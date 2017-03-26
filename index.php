@@ -131,35 +131,20 @@ $(document).ready(function () {
         </div> <!--/.carousel -->
     <div>    
 </div>
+   
 
+<!-- Projects,events &workshops of Team .EXE -->
+<section id="blog-full-width">
+                <div class="container">
+                   <?php
+                        include_once('projects_embed.php');
+                        include_once('event_embed.php');
+                        include_once('workshop_embed.php');
+                   ?>                     
+                   </div>
+                   </div>
+                   </section>
 
-    <div class="container">
-      <center>
-      <h1>All Events</h1>
-      </center>
-      <div class="row">
-      <!-- script loop from here -->
-        <div class="col-md-4">
-          <h2>Name 1</h2>
-          <p>Fetch names from database using php.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      <!-- script loop ends here -->
-
-      <!-- script loop from here -->
-        <div class="col-md-4">
-          <h2>Name 1</h2>
-          <p>Fetch names from database using php.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      <!-- script loop ends here -->
-      <!-- script loop from here -->
-        <div class="col-md-4">
-          <h2>Name 1</h2>
-          <p>Fetch names from database using php.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      <!-- script loop ends here -->        
       </div>
       </div>
 
