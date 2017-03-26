@@ -16,6 +16,8 @@
 - [ ] Update the project page with relevant images & by providing detailed description of projects.
 - [ ] Add meta tags to every page for easy indexing & elegant sharing on social media platforms.
 - [ ] Record users activity on website, so as to give award to most active user.
+- [ ] Update Navigation file
+- [ ] Update 404 file
 
 ## Required
 - [ ] Latest Photos of team members, combined & year wise.
