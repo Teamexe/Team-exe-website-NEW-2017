@@ -1,7 +1,7 @@
-<div class="row">
+                    <div class="row">
                         <div class="col-md-4">
                             <div class="sidebar"><h1 style="color: #02bdd5">Our Projects</h1>
-                            <div class="categories widget">
+                                  <div class="categories widget">
                                         <h3 class="widget-head">Our Projects (All - Open source)</h3>
                                         <ul>
                                             <li>
@@ -21,6 +21,9 @@
                                             </li>
                                             <li>
                                                 <a>AI bot</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
+                                                <a>Exeplore</a> <span class="badge">New</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -58,3 +61,4 @@
                                     
                                 </div>
                             </div>
+                            

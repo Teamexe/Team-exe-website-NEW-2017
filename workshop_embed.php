@@ -5,10 +5,13 @@
                                         <h3 class="widget-head">Our Workshops (Over)</h3>
                                         <ul>
                                             <li>
+                                                <a>Linux Installation fest</a> <span class="badge">New</span>
+                                            </li>
+                                            <li>
                                                 <a>AI Game theory</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Introduction to GIT</a> <span class="badge">New</span>
+                                                <a>GIT & Web designing</a> <span class="badge">New</span>
                                             </li>
                                         </ul>
                                     </div>
