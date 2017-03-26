@@ -58,6 +58,21 @@
                 </div>
 </div>
     </center>
+    
+    <section class="global-page-header">
+        </section>
+      <div class="container">
+      <center>
+      <h1>IRC is the fastest way to reach us</h1>
+      <ul>
+        <li>Server : <code> irc.freenode.net </code><br></li>
+        <li>Port : <code>6697</code><br></li>
+        <li>Channel : <code>#teamexe</code><br></li>
+        <li>Reach Us<br></li>
+        </ul>
+      </center>
+      </div>
+
     <section class="global-page-header">
         </section>
       <div class="container">

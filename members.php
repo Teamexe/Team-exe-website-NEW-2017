@@ -25,7 +25,6 @@
 </div>
 <center>
 <iframe id="fram" src="members/coordinators.php" ></iframe>  
-<a href="exec.php"><button class="btn-info btn">View Executive members</button></a>
 </center>
 
 

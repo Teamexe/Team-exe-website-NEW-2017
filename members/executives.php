@@ -11,7 +11,7 @@
 		<div class="container">
 		<center>
 		<h1>Executives - Team .EXE</h1>
-		<img src="../images/executives.jpg" alt="">
+		<img src="../images/executives.jpg" alt="" width="100%">
 		</center>
 			
 			<div class="content">

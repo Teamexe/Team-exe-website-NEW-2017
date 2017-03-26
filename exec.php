@@ -25,7 +25,6 @@
 </div>
 <center>
 <iframe id="fram" src="members/executives.php" ></iframe>  
-<a href="vol.php"><button class="btn-info btn">View Volunteers</button></a>
 </center>
   
 

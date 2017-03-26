@@ -11,7 +11,7 @@
 		<div class="container">
 		<center>
 		<h1>Volunteers - Team .EXE</h1>
-		<img src="../images/volunteers.jpg" alt="">
+		<img src="../images/volunteers.jpg" alt="" width="100%">
 		</center>
 			
 			<div class="content">

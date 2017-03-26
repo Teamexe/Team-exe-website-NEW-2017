@@ -29,6 +29,16 @@
                             <li><a href="index.php" class="tooltip-show" data-toggle="tooltip" title="Team .EXE">Home</a></li>
                             <li><a href="about.php" class="tooltip-show" data-toggle="tooltip" title="About - Team .EXE">About</a></li>
                             <li><a href="contact.php" class="tooltip-show" data-toggle="tooltip" title="Contact - Team .EXE">Contact</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Members <span class="caret"></span></a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="members.php" class="tooltip-show" data-toggle="tooltip" title="Coordinators - Team .EXE">Coordinators</a></li>
+                                        <li><a href="exec.php" class="tooltip-show" data-toggle="tooltip" title="Executives - Team .EXE">Executives</a></li>
+                                        <li><a href="vol.php" class="tooltip-show" data-toggle="tooltip" title="Volunteers - Team .EXE">Volunteers</a></li>
+                                        </ul>
+                                </div>
+                            </li>
                             <li><a href="projects.php" class="tooltip-show" data-toggle="tooltip" title="View Projects by Team .EXE">Projects</a></li>
                             <li><a href="events.php" class="tooltip-show" data-toggle="tooltip" title="View Events by Team .EXE">Events</a></li>
 
