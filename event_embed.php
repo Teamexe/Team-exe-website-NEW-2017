@@ -1,6 +1,7 @@
 <div class="row">
                         <div class="col-md-4">
-                            <div class="sidebar"><h1 style="color: #02bdd5">Our Events</h1>
+                            <div class="sidebar">
+                            <center><h1 style="color: #02bdd5">Our Events</h1></center>
                                     <div class="categories widget">
                                         <h3 class="widget-head">Our Events (Online)</h3>
                                         <ul>
