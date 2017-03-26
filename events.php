@@ -52,7 +52,7 @@
                                                 <a>Paradox 10.0</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Hunt the code 3.0</a> <span class="badge">New</span>
+                                                <a href="hunt_the_code.php" style="color: blue">Hunt the code 3.0</a> <span class="badge">Ongoing</span>
                                             </li>
                                         </ul>
                                     </div>

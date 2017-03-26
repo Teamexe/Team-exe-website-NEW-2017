@@ -90,12 +90,12 @@ $(document).ready(function () {
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="images/image.jpg" alt="First slide">
+          <img class="first-slide" src="images/hunt_code.png" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Event name</h1>
-              <p>Event description here</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Event page link</a></p>
+              <h1>HUNT_THE_CODE( );</h1>
+              <p>Hunt the Code is a online programming competition which is conducted by NIT HAMIRPUR.</p>
+              <p><a class="btn btn-lg btn-primary" href="hunt_the_code.php" role="button">View</a></p>
             </div>
           </div>
         </div>
