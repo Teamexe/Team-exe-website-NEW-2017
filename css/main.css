@@ -1089,7 +1089,24 @@ article {
 .sidebar .categories ul li span.badge {
   float: right;
   background: transparent;
-  color: #444;
+  color: #02bdd5;
+  font-weight: 400;
+  border: 1px solid #dedede;
+  border-radius: 0;
+}
+.sidebar .categories ul li span.date {
+  float: right;
+  background: transparent;
+  color: #FF00FF;
+  font-weight: 400;
+  border: 1px solid #dedede;
+  border-radius: 0;
+}
+.sidebar .categories ul li span.going {
+  float: right;
+  background: transparent;
+  color: #00FF00;
+  font-weight: 400;
   border: 1px solid #dedede;
   border-radius: 0;
 }
