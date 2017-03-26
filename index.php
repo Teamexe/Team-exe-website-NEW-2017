@@ -80,63 +80,12 @@ $(document).ready(function () {
 
 });
 </script>
-
- <!-- Carousel -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="images/hunt_code.png" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>HUNT_THE_CODE( );</h1>
-              <p>Hunt the Code is a online programming competition which is conducted by NIT HAMIRPUR.</p>
-              <p><a class="btn btn-lg btn-primary" href="hunt_the_code.php" role="button">View</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="images/image.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Event name</h1>
-              <p>Event description here</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Event page link</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="images/image.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Event name</h1>
-              <p>Event description here</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Event page link</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-        </div> <!--/.carousel -->
-    <div>    
-</div>
-
-
+ <img src="images/hunt.png" alt="Hunt_the_code( );" style="width: 100%" />
 
 <!-- Projects,events &workshops of Team .EXE -->
 <section id="blog-full-width">
                 <div class="container">
+                <center><h1><b>OUR CONTRIBUTION THIS NIMBUS</b></h1></center>
                    <?php
                         include_once('projects_embed.php');
                         include_once('event_embed.php');
