@@ -37,25 +37,25 @@
                                 
                                    
                                     <div class="categories widget">
-                                        <h3 class="widget-head">Our Projects (Open source)</h3>
+                                        <h3 class="widget-head">Our Projects (All - Open source)</h3>
                                         <ul>
                                             <li>
-                                                <a>Open Elective Manager (Open source)</a> <span class="badge">New</span>
+                                                <a>Open Elective Management System</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Hostel Allotment (Open source)</a> <span class="badge">New</span>
+                                                <a>Hostel Allotment</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Intranet Video Chat (Open source)</a> <span class="badge">New</span>
+                                                <a>Intranet Video Chat</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Confession Website (Open source)</a> <span class="badge">New</span>
+                                                <a>Confession Website</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Photo Liker (Open source)</a> <span class="badge">New</span>
+                                                <a>Photo Liker</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>AI bot (Open source)</a> <span class="badge">New</span>
+                                                <a>AI bot</a> <span class="badge">New</span>
                                             </li>
                                         </ul>
                                     </div>
