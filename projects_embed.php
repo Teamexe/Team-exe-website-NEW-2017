@@ -5,7 +5,7 @@
                                         <h3 class="widget-head">Our Projects (All - Open source)</h3>
                                         <ul>
                                             <li>
-                                                <a>Open Elective Management System</a> <span class="badge">New</span>
+                                                <a>Open Elective Management</a> <span class="badge">New</span>
                                             </li>
                                             <li>
                                                 <a>Hostel Allotment</a> <span class="badge">New</span>
@@ -44,7 +44,7 @@
                                                 <a>Program-O (Open source)</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Mozilla Thunderbird (Open source)</a> <span class="badge">New</span>
+                                                <a>Moz. Thunderbird (Open source)</a> <span class="badge">New</span>
                                             </li>
                                             <li>
                                                 <a>OpenVPN (Open source)</a> <span class="badge">New</span>
