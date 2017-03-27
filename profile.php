@@ -44,12 +44,11 @@
         $pic=$rowaa['picture'];
       }
       echo '</h1><br><h2><a href="view.php">View all registered users</a></h2><br>';
-      print("<img src=".$pic." width=40% />");
+      print("<img src=".$pic." width=35% />");
 
-      echo "</center>";
+      echo "</center>";      
       echo "</div>";
       echo "</div>";
-      include_once('navigation.php');
       include_once('footer.php');
 ?>
 </body>
