@@ -33,6 +33,7 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Members <span class="caret"></span></a>
                                 <div class="dropdown-menu">
                                     <ul>
+                                        <li><a href="fin.php" class="tooltip-show" data-toggle="tooltip" title="Final Year - Team .EXE">Final Year</a></li>
                                         <li><a href="members.php" class="tooltip-show" data-toggle="tooltip" title="Coordinators - Team .EXE">Coordinators</a></li>
                                         <li><a href="exec.php" class="tooltip-show" data-toggle="tooltip" title="Executives - Team .EXE">Executives</a></li>
                                         <li><a href="vol.php" class="tooltip-show" data-toggle="tooltip" title="Volunteers - Team .EXE">Volunteers</a></li>

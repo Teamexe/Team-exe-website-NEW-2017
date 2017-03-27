@@ -19,6 +19,7 @@
 - [ ] Update Navigation file
 - [ ] Update 404 file
 - [ ] Automated file uploading & organizing for websmash event
+- [ ] Add previous coordinators page in members list
 
 ## Required
 - [x] Latest Photos of team members, combined & year wise.
