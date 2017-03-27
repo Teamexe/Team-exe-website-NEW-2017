@@ -92,8 +92,16 @@ $(document).ready(function () {
                         include_once('workshop_embed.php');
                    ?>                     
                    </div>
+                    <center><h1><b>OUR ONGOING EVENTS</b></h1></center>
+                   <?php
+                        include_once('huntcode_embed.php');
+                   ?>                     
+                   </div>
                    </div>
                    </section>
+                   
+                  
+                   
 
       </div>
       </div>
