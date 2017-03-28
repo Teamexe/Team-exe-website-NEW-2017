@@ -12,10 +12,13 @@
                                                 <a>Game of Codes 4.0</a> <span class="badge" style="color: #800000">Upcoming</span>
                                             </li>
                                             <li>
-                                                <a>Photo Liker 1.0</a> <span class="badge">New</span>
+                                                <a>Confess 1.0</a> <span class="badge" style="color: #800000">Upcoming</span>
                                             </li>
                                             <li>
-                                                <a>Websmash 3.0</a> <span class="badge">New</span>
+                                                <a>Websmash 3.0</a> <span class="badge" style="color: #bd29ae">Hackathon</span>
+                                            </li>
+                                            <li>
+                                                <a>Photo Liker 1.0</a> <span class="badge">New</span>
                                             </li>
                                             <li>
                                                 <a>Paradox 10.0</a> <span class="badge">New</span>
@@ -24,7 +27,7 @@
                                     </div>
 
                                     <div class="categories widget">
-                                        <h3 class="widget-head">Our Events (Offline)</h3>
+                                        <h3 class="widget-head">Our Events (Onsite)</h3>
                                         <ul>
                                             <li>
                                                 <a>Code swap 3.0</a> <span class="badge" style="color: #800000">Upcoming</span>
@@ -32,6 +35,12 @@
                                             <li>
                                                 <a>Nith-Hacks 1.0</a> <span class="badge" style="color: #800000">Upcoming</span>
                                             </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="categories widget">
+                                        <h3 class="widget-head">Our Events (Offline)</h3>
+                                        <ul>
                                             <li>
                                                 <a>Exeplore 4.0</a> <span class="badge">New</span>
                                             </li>
