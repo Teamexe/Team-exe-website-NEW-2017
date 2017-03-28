@@ -42,7 +42,8 @@
                                             <a href="uploads/day1_windows.zip">Windows</a>
                                             <p>
                                                 <ul>
-                                                    <li>Hint 1 - Not available</li>
+                                                    <li>Hint 1 Question 1 - The output is dependent on whether the value of n is even or odd.</li>
+                                                    <li>Hint 1 Question 2 - The output is related to prime numbers.</li>
                                                     <li>Hint 2 - Not available</li>
                                                 </ul>
                                             </p>
