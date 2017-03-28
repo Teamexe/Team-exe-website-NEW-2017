@@ -49,7 +49,8 @@
                                             </p>
                                             <br>
 
-                                            Day 2 - Question 1 & Question 2 - <a href="#">Not available</a>
+                                            Day 2 - Question 1 & Question 2 - <a href="uploads/day2_linux.zip">Linux</a> | 
+                                            <a href="uploads/day2_windows.zip">Windows</a>
                                             <p>
                                                 <ul>
                                                     <li>Hint 1 - Not available</li>
