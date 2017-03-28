@@ -9,7 +9,7 @@
                                                 <a href="hunt_the_code.php" style="color: #02bdd5" class="tooltip-show" data-toggle="tooltip" title="View Details">Hunt the code 3.0</a> <span class="badge" style="color: #008000">Ongoing</span>
                                             </li>
                                             <li>
-                                                <a>Game of Codes 4.0</a> <span class="badge" style="color: #800000">Upcoming</span>
+                                                <a href="https://www.hackerearth.com/challenge/college/game-of-codes-40-1/" target="_blank" style="color: #02bdd5" class="tooltip-show" data-toggle="tooltip" title="View Details">Game of Codes 4.0</a> <span class="badge" style="color: #800000">Upcoming</span>
                                             </li>
                                             <li>
                                                 <a>Confess 1.0</a> <span class="badge" style="color: #800000">Upcoming</span>
