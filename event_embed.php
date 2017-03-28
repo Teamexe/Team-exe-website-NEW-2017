@@ -6,6 +6,9 @@
                                         <h3 class="widget-head">Our Events (Online)</h3>
                                         <ul>
                                             <li>
+                                                <a href="hunt_the_code.php" style="color: #02bdd5" class="tooltip-show" data-toggle="tooltip" title="View Details">Hunt the code 3.0</a> <span class="badge" style="color: #008000">Ongoing</span>
+                                            </li>
+                                            <li>
                                                 <a>Game of Codes 4.0</a> <span class="badge" style="color: #800000">Upcoming</span>
                                             </li>
                                             <li>
@@ -17,9 +20,6 @@
                                             <li>
                                                 <a>Paradox 10.0</a> <span class="badge">New</span>
                                             </li>
-                                            <li>
-                                                <a href="hunt_the_code.php" style="color: #02bdd5" class="tooltip-show" data-toggle="tooltip" title="View Details">Hunt the code 3.0</a> <span class="badge" style="color: #008000">Ongoing</span>
-                                            </li>
                                         </ul>
                                     </div>
 
@@ -27,13 +27,16 @@
                                         <h3 class="widget-head">Our Events (Offline)</h3>
                                         <ul>
                                             <li>
+                                                <a>Code swap 3.0</a> <span class="badge" style="color: #800000">Upcoming</span>
+                                            </li>
+                                            <li>
+                                                <a>Nith-Hacks 1.0</a> <span class="badge" style="color: #800000">Upcoming</span>
+                                            </li>
+                                            <li>
                                                 <a>Exeplore 4.0</a> <span class="badge">New</span>
                                             </li>
                                             <li>
                                                 <a>Lib development 2.0</a> <span class="badge">New</span>
-                                            </li>
-                                            <li>
-                                                <a>Code swap 3.0</a> <span class="badge" style="color: #800000">Upcoming</span>
                                             </li>
                                             <li>
                                                 <a>Debugging 3.0</a> <span class="badge">New</span>
@@ -42,7 +45,7 @@
                                                 <a>Hackhunt 2.0</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Nith-Hacks 1.0</a> <span class="badge" style="color: #800000">Upcoming</span>
+                                                <a>Mackey Mackey 2.0</a> <span class="badge">New</span>
                                             </li>
                                         </ul>
                                     </div>
