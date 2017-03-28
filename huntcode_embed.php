@@ -37,6 +37,7 @@
 
                                         <h2 class="blogpost-title">
                                         <a>Hunt the code</a>
+                                        <img src="images/hunt.png" alt="Hunt_the_code( );" style="width: 100%" />
                                         </h2>
                                             Day 1 - Question 1 & Question 2- <a href="uploads/day1_linux.zip">Linux</a> | 
                                             <a href="uploads/day1_windows.zip">Windows</a>
