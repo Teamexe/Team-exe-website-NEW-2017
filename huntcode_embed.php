@@ -60,7 +60,8 @@
                                             </p>
                                             <br>
 
-                                            Day 3 - Question 1 & Question 2 - <a href="#">Not available</a>
+                                            Day 3 - Question 1 & Question 2 - <a href="uploads/day3_linux.zip">Linux</a> | 
+                                            <a href="uploads/day3_windows.zip">Windows</a>
                                             <p>
                                                 <ul>
                                                     <li>Hint 1 - Not available</li>
