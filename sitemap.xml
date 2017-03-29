@@ -8,29 +8,70 @@
 
 <url>
   <loc>http://exe.nith.ac.in/</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://exe.nith.ac.in/index.php</loc>
-</url>
-<url>
-  <loc>http://exe.nith.ac.in/login.php</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://exe.nith.ac.in/about.php</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://exe.nith.ac.in/contact.php</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://exe.nith.ac.in/projects.php</loc>
-</url>
-<url>
-  <loc>http://exe.nith.ac.in/events.php</loc>
+  <loc>http://exe.nith.ac.in/fin.php</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://exe.nith.ac.in/members.php</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://exe.nith.ac.in/view.php</loc>
+  <loc>http://exe.nith.ac.in/exec.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/vol.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/projects.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/events.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/workshops.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/login.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/hunt_the_code.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/members/final.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/members/coordinators.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/members/executives.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://exe.nith.ac.in/members/volunteers.php</loc>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>
