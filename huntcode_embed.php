@@ -45,7 +45,8 @@
                                                 <ul>
                                                     <li>Hint 1 Question 1 - The output is dependent on whether the value of n is even or odd.</li>
                                                     <li>Hint 1 Question 2 - The output is related to prime numbers.</li>
-                                                    <li>Hint 2 - Not available</li>
+                                                    <li>Hint 2 Question 1 - A square operation is performed in both cases.</li>
+                                                    <li>Hint 2 Question 2 - A constant is multiplied to the prime numbers depending upon the position of the number in the output.</li>
                                                 </ul>
                                             </p>
                                             <br>
@@ -54,8 +55,10 @@
                                             <a href="uploads/day2_windows.zip">Windows</a>
                                             <p>
                                                 <ul>
-                                                    <li>Hint 1 - Not available</li>
-                                                    <li>Hint 2 - Not available</li>
+                                                    <li>Hint 1 Question 1 - The output is related to the binary representation of HCF.</li>
+                                                    <li>Hint 1 Question 2 - The output is based on a well known series.</li>
+                                                    <li>Hint 2 Question 1 - Each output is either a power of 2 or 3. The output is evaluated using concept of prime numbers.</li>
+                                                    <li>Hint 2 Question 2 - The output is related to the summation of first n numbers of the series.</li>
                                                 </ul>
                                             </p>
                                             <br>
