@@ -80,7 +80,7 @@ $(document).ready(function () {
 
 });
 </script>
- <img src="images/goc.jpeg" alt="Hunt_the_code( );" style="width: 100%" />
+ <img src="images/confess.jpeg" alt="Hunt_the_code( );" style="width: 100%" />
 
 <!-- Projects,events &workshops of Team .EXE -->
 <section id="blog-full-width">
