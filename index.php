@@ -80,7 +80,7 @@ $(document).ready(function () {
 
 });
 </script>
- <img src="images/confess.png" alt="Hunt_the_code( );" style="width: 100%" />
+ <a href="http://exe.nith.ac.in/confess" target="_blank"><img src="images/confess.png" alt="NITH Confessions" style="width: 100%" /></a>
 
 <!-- Projects,events &workshops of Team .EXE -->
 <section id="blog-full-width">
