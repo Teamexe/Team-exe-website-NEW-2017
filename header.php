@@ -47,6 +47,7 @@
                             <li><a href="projects.php" class="tooltip-show" data-toggle="tooltip" title="View Projects by Team .EXE">Projects</a></li>
                             <li><a href="events.php" class="tooltip-show" data-toggle="tooltip" title="View Events by Team .EXE">Events</a></li>
                             <li><a href="workshops.php" class="tooltip-show" data-toggle="tooltip" title="View Events by Team .EXE">workshops</a></li>
+                            <li><a href="http://exe.nith.ac.in/confess" class="tooltip-show" data-toggle="tooltip" title="NITH confessions - Team .EXE">NITH Confessions</a></li>
                                 </div>
                             </li>
                             
