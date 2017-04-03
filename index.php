@@ -9,6 +9,10 @@
     <meta name="description" content="Team .EXE is the technical team of Computer Science & Engineering Department for technical fest NIMBUS at NIT Hamirpur.">
     <meta name="author" content="Team .EXE">
     <link rel="icon" href="images/title.png">
+    <meta property="og:image" content="images/logo.png"/>
+    <meta property="og:title" content="Team .EXE -  NIT Hamirpur"/>
+    <meta property="og:url" content="http://exe.nith.ac.in"/>
+    <meta property="og:site_name" content="Team .EXE - NIT Hamirpur"/>
 
     <title>Team .EXE</title>
 
