@@ -84,7 +84,7 @@ $(document).ready(function () {
 
 });
 </script>
- <a href="http://exe.nith.ac.in/confess" target="_blank"><img src="images/confess.png" alt="NITH Confessions" style="width: 100%" /></a>
+ <a href="http://exe.nith.ac.in/paradox" target="_blank"><img src="images/paradox.jpeg" alt="NITH Confessions" style="width: 100%" /></a>
 
 <!-- Projects,events &workshops of Team .EXE -->
 <section id="blog-full-width">
@@ -96,10 +96,6 @@ $(document).ready(function () {
                         include_once('workshop_embed.php');
                    ?>                     
                    </div>
-                    <center><h1><b>OUR ONGOING EVENTS</b></h1></center>
-                   <?php
-                        include_once('huntcode_embed.php');
-                   ?>                     
                    </div>
                    </div>
                    </section>

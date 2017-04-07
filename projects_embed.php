@@ -26,6 +26,9 @@
                                             <li>
                                                 <a>Exeplore</a> <span class="badge">New</span>
                                             </li>
+                                            <li>
+                                                <a>App creater</a> <span class="badge">New</span>
+                                            </li>
                                         </ul>
                                     </div>
 

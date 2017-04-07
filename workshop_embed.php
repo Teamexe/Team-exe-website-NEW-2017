@@ -16,19 +16,5 @@
                                             </li>
                                         </ul>
                                     </div>
-
-                                    <div class="categories widget">
-                                        <h3 class="widget-head">Our Workshops (Upcoming)</h3>
-                                        <ul>
-                                            <li>
-                                                <a>Computer Networking</a> <span class="badge" style="color: #800000">Upcoming</span>
-                                            </li>
-                                            <li>
-                                                <a>Deepweb & Darknet</a> <span class="badge" style="color: #800000">Upcoming</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    
-                                    
                                 </div>
                             </div>
